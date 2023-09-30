@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Mention_Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).The project made for mentioning user using two React components for rendering the mentions input:
+
+import { MentionsInput, Mention } from 'react-mentions'
+
+MentionsInput is the main component rendering the input Textarea control. It takes one or multiple Mention components as its children. Each Mention component represents a data source for a specific class of mentionable objects, such as users, template variables, issues, etc.
 
 ## Available Scripts
 

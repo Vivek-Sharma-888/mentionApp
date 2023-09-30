@@ -1,0 +1,12 @@
+.center{
+    width: 60%;
+    margin: auto;
+    margin-top: 20%;
+    padding: 5px;
+    text-decoration: none;
+}
+
+::placeholder {
+   padding-left: 4px;
+  }
+
